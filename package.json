@@ -1,0 +1,31 @@
+{
+  "name": "backend-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon keystone"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alokkumarjha/backend-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alokkumarjha/backend-test/issues"
+  },
+  "homepage": "https://github.com/alokkumarjha/backend-test#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "jimp": "^0.16.1",
+    "jsdoc": "^3.6.5",
+    "jsonwebtoken": "^8.5.1",
+    "keystone": "git+https://18ed2bfd47faefb0e0a58a408196a35824c3d0a2:x-oauth-basic@github.com/xencov/keystone.git",
+    "keystone-storage-adapter-s3": "^2.0.0",
+    "mongoose": "^5.10.5",
+    "nodemon": "^2.0.4"
+  }
+}
